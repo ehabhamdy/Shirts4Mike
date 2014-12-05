@@ -15,7 +15,7 @@
 
       <ul class="nav">
         <li class="shirts"><a href="#">Shirts</a></li>
-        <li class="contact"><a href="#">Contact</a></li>
+        <li class="contact <?php if($page_name=="Contacts") echo "on"?>"><a href="contacts.php">Contact</a></li>
         <li class="cart"><a href="#">Shopping Cart</a></li>
       </ul>
 
